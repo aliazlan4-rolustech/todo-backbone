@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+  <head>
+		<title>My TODOs</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+	</head>
+
+	<body>
+
+        <div class="container">
+            <div id="menu" class="menu cf"></div>
+            <h1></h1>
+            <div id="content"></div>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/handlebars.js"></script>
+        <script src="js/vendor/underscore.js"></script>
+        <script src="js/vendor/backbone.js"></script>
+        <script src="js/template.js"></script>
+        <script src="js/App.js"></script>
+        <script src="js/views/menu.js"></script>
+        <script src="js/views/list.js"></script>
+        <script src="js/views/form.js"></script>
+        <script src="js/models/ToDo.js"></script>
+        <script src="js/collections/ToDos.js"></script>
+        <script>
+            window.onload = function() {
+                app.init();
+            }
+        </script>
+	</body>
+
+</html>

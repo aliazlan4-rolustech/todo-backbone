@@ -1,0 +1,13 @@
+<li class="cf done-{{ done }}" data-index="{{ index }}">
+    <h2>
+        <input type="checkbox" data-status {{ doneChecked }} />
+        <a href="javascript:void(0);" data-up>&#8593;</a>
+        <a href="javascript:void(0);" data-down>&#8595;</a>
+        {{ title }}
+    </h2>
+    <div class="options">
+        <a href="#edit/{{ index }}">edit</a>
+        <a href="javascript:void(0);" data-archive>{{ archiveLink }}</a>
+        <a href="#delete/{{ index }}">delete</a>
+    </div>
+</li>
